@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Drill.label>drill</Drill.label>
+  <Drill.deathMessage>{0} has been drilled to death.</Drill.deathMessage>
+
+  <Ram.label>ram</Ram.label>
+  <Ram.deathMessage>{0} has been rammed to death.</Ram.deathMessage>
+
+  <Saw.label>saw</Saw.label>
+  <Saw.deathMessage>{0} has been sawed into two pieces.</Saw.deathMessage>
+
+  <Electrocute.label>electrocute</Electrocute.label>
+  <Electrocute.deathMessage>{0} has been killed.</Electrocute.deathMessage>
+
+
+  <!--<Hammersmash.label>smash</Hammersmash.label>-->
+  <!--<Hammersmash.deathMessage>{0} has been smashed to death.</Hammersmash.deathMessage>-->
+
+</LanguageData>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName = "Villager"]/weaponTags</xpath>
+    <value>
+      <li>MedievalMeleePike</li>
+      <li>IndustrialMelee</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName = "Drifter"]/weaponTags</xpath>
+    <value>
+      <li>MedievalMeleePike</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName = "Thrasher"]/weaponTags</xpath>
+    <value>
+      <li>MedievalMeleePike</li>
+      <li>IndustrialMelee</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName = "Scavenger"]/weaponTags</xpath>
+    <value>
+      <li>MedievalMeleePike</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PawnKindDef[defName = "Mercenary_Slasher"]/weaponTags</xpath>
+    <value>
+      <li>IndustrialMelee</li>
+      <li>SpacerMelee</li>
+    </value>
+  </Operation>
+</Patch>

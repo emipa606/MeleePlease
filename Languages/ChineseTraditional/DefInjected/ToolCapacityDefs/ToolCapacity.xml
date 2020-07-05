@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Electrocute.label>電擊</Electrocute.label>
+  <Ram.label>撞擊</Ram.label>
+  <Drill.label>鑽</Drill.label>
+  <FlameStab.label>火焰刺</FlameStab.label>
+  <FlameCut.label>火焰斬</FlameCut.label>
+  <TorchBurn.label>燒傷</TorchBurn.label>
+  <TorchFlame.label>點燃</TorchFlame.label>
+  <Hammersmash.label>重擊</Hammersmash.label>
+  <Saw.label>鋸</Saw.label>
+</LanguageData>

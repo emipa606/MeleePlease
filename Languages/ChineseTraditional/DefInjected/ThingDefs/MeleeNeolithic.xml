@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Melee_Torch.label>火炬</Melee_Torch.label>
+  <Melee_Torch.description>一個用來點亮一個區域的工具。但，為何不和你的敵人們"分享"你的火焰呢?</Melee_Torch.description>
+  <Melee_Ram.label>攻城錘</Melee_Ram.label>
+  <Melee_Ram.description>一個巨大，笨重的柱狀武器，主要用途是粉碎建築。對人員殺傷效果很差，但對建築的效果拔群。</Melee_Ram.description>
+  <Melee_Axe.label>斧</Melee_Axe.label>
+  <Melee_Axe.description>一個多種場合下都可以使用的工具，包括戰鬥。斧的破壞力驚人，但攻擊緩慢。</Melee_Axe.description>
+  <Melee_Stick.label>棍</Melee_Stick.label>
+  <Melee_Stick.description>一根很長的棍子。棍的傷害輕微，但攻速高，且可以協助行走。</Melee_Stick.description>
+</LanguageData>

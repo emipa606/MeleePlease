@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Electrocute.label>電擊</Electrocute.label>
+  <Electrocute.stages.Painful.label>劇痛</Electrocute.stages.Painful.label>
+  <Electrocute.stages.Paralyzed.label>麻痺</Electrocute.stages.Paralyzed.label>
+  <Electrocute.stages.Shock.label>休克</Electrocute.stages.Shock.label>
+</LanguageData>

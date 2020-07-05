@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Hammersmash.label>重擊</Hammersmash.label>
+  <Hammersmash.deathMessage>{0} 被重擊致死。</Hammersmash.deathMessage>
+  <Drill.label>鑽</Drill.label>
+  <Drill.deathMessage>{0} 被鑽頭鑽死。</Drill.deathMessage>
+  <Ram.label>撞擊</Ram.label>
+  <Ram.deathMessage>{0} 受撞擊而死。</Ram.deathMessage>
+  <Saw.label>鋸</Saw.label>
+  <Saw.deathMessage>{0} 被鋸成兩半。</Saw.deathMessage>
+  <Electrocute.label>電擊</Electrocute.label>
+</LanguageData>

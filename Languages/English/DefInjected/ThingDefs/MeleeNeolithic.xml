@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--<Melee_Torch.label>torch</Melee_Torch.label>-->
+  <!--<Melee_Torch.description>A tool for lighting an area. But why not share your fire with your enemies?</Melee_Torch.description>-->
+  <!--<Melee_Ram.label>battering ram</Melee_Ram.label>-->
+  <!--<Melee_Ram.description>A large, heavy pillar carried to smash structure. Does less damage to pawns, but effective to buildings.</Melee_Ram.description>-->
+  <!--<Melee_Axe.label>axe</Melee_Axe.label>-->
+  <!--<Melee_Axe.description>A useful tool in many situations, including combat. Axe can deal great damage while hits slowly.</Melee_Axe.description>-->
+  <!--<Melee_Stick.label>stick</Melee_Stick.label>-->
+  <!--<Melee_Stick.description>A long stick, with no heavy ends. Stick can't deal great damage, but attacks faster, and also has the ability to support walking.</Melee_Stick.description>-->
+
+</LanguageData>

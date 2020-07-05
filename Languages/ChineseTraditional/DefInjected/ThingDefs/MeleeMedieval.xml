@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <Melee_Pike.label>戟</Melee_Pike.label>
+  <Melee_Pike.description>一把實在是過長的武器，使你的格鬥愛好者們將其認定成遠距武器。可以用來戳較遠的敵人。但在近身的表現則不那麼優秀了。</Melee_Pike.description>
+  <Bullet_pike.label>戟</Bullet_pike.label>
+  <Melee_Warhammer.label>戰錘</Melee_Warhammer.label>
+  <Melee_Warhammer.description>一把巨大的錘子，可以用來粉碎你的敵人。然而，它實在是太重了，以至於難以靈活使用。</Melee_Warhammer.description>
+  <Melee_Machete.label>彎刀</Melee_Machete.label>
+  <Melee_Machete.description>一把短刀，適合砍擊。彎刀的設計讓其可以攻擊更快，更準，但傷害較低。</Melee_Machete.description>
+  <Melee_Claymore.label>大劍</Melee_Claymore.label>
+  <Melee_Claymore.description>大劍是統治者的象徵，可以砍或者刺擊。因其過於笨重，大劍難以揮武，也會影響移動速度，但至少你的居民會覺得大劍看起來很美麗。</Melee_Claymore.description>
+</LanguageData>

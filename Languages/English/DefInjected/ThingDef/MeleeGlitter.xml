@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Melee_Vibraslicer.label>vibraslicer</Melee_Vibraslicer.label>
+  <Melee_Vibraslicer.description>A katana connected to a high frequency vibrator, making it capable of cutting metal like hot butter. Though considered one of the most dangerous melee weapon in Rimworld, this is rather made for recreation purposes in Glitterworld.</Melee_Vibraslicer.description>
+  <Melee_Vibraslicer.tools.0.label>handle</Melee_Vibraslicer.tools.0.label>
+  <Melee_Vibraslicer.tools.1.label>point</Melee_Vibraslicer.tools.1.label>
+  <Melee_Vibraslicer.tools.2.label>edge</Melee_Vibraslicer.tools.2.label>
+
+
+</LanguageData>
