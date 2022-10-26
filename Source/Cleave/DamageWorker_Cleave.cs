@@ -1,81 +1,80 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace MeleePlease
+namespace MeleePlease;
+
+public class DamageWorker_Cleave : DamageWorker_AddInjury
 {
-    public class DamageWorker_Cleave : DamageWorker_AddInjury
+    public DamageDefCleave Def => def as DamageDefCleave;
+
+
+    /// CALCULATION NOTES:
+    /// Cleave calculation is determined by a few factors.
+    /// 0) Only persue these calculations if 0 is set as target flag.
+    /// 1) Pawns with weapons will use the mass to decide
+    /// how many adjacent targets are hit with the cleave attack.
+    /// 2) Pawns without weapons will use their body size.
+    /// 3) Otherwise, only 1 additional attack.
+    public virtual int NumToCleave(Thing t)
     {
-        public DamageDefCleave Def => def as DamageDefCleave;
-
-
-        /// CALCULATION NOTES:
-        /// Cleave calculation is determined by a few factors.
-        /// 0) Only persue these calculations if 0 is set as target flag.
-        /// 1) Pawns with weapons will use the mass to decide
-        /// how many adjacent targets are hit with the cleave attack.
-        /// 2) Pawns without weapons will use their body size.
-        /// 3) Otherwise, only 1 additional attack.
-        public virtual int NumToCleave(Thing t)
+        if (Def.cleaveTargets != 0)
         {
-            if (Def.cleaveTargets != 0)
-            {
-                return Def.cleaveTargets;
-            }
-
-            if (t is not Pawn p)
-            {
-                return 1;
-            }
-
-            if (p.equipment?.Primary is { } w)
-            {
-                return (int) w.GetStatValue(StatDefOf.Mass);
-            }
-
-            return (int) p.BodySize;
+            return Def.cleaveTargets;
         }
 
-        public override DamageResult Apply(DamageInfo dinfo, Thing victim)
+        if (t is not Pawn p)
         {
-            if (!dinfo.InstantPermanentInjury)
+            return 1;
+        }
+
+        if (p.equipment?.Primary is { } w)
+        {
+            return (int)w.GetStatValue(StatDefOf.Mass);
+        }
+
+        return (int)p.BodySize;
+    }
+
+    public override DamageResult Apply(DamageInfo dinfo, Thing victim)
+    {
+        if (!dinfo.InstantPermanentInjury)
+        {
+            if (dinfo.Instigator != null)
             {
-                if (dinfo.Instigator != null)
+                float maxDist = 4;
+                var cleaveAttacks = NumToCleave(dinfo.Instigator);
+                if (victim?.PositionHeld != default(IntVec3))
                 {
-                    float maxDist = 4;
-                    var cleaveAttacks = NumToCleave(dinfo.Instigator);
-                    if (victim?.PositionHeld != default(IntVec3))
+                    for (var i = 0; i < 8; i++)
                     {
-                        for (var i = 0; i < 8; i++)
+                        if (victim == null)
                         {
-                            if (victim == null)
-                            {
-                                continue;
-                            }
+                            continue;
+                        }
 
-                            var c = victim.PositionHeld + GenAdj.AdjacentCells[i];
-                            if (cleaveAttacks <= 0 ||
-                                !((dinfo.Instigator.Position - c).LengthHorizontalSquared < maxDist))
-                            {
-                                continue;
-                            }
+                        var c = victim.PositionHeld + GenAdj.AdjacentCells[i];
+                        if (cleaveAttacks <= 0 ||
+                            !((dinfo.Instigator.Position - c).LengthHorizontalSquared < maxDist))
+                        {
+                            continue;
+                        }
 
-                            var pawnsInCell = c.GetThingList(victim.Map).FindAll(x =>
-                                x is Pawn && x != dinfo.Instigator && x.Faction != dinfo.Instigator.Faction);
-                            for (var k = 0; cleaveAttacks > 0 && k < pawnsInCell.Count; k++)
-                            {
-                                --cleaveAttacks;
-                                var p = (Pawn) pawnsInCell[k];
-                                p.TakeDamage(new DamageInfo(Def.cleaveDamage,
-                                    (int) (dinfo.Amount * Def.cleaveFactor), Def.armorPenetration, -1,
-                                    dinfo.Instigator));
-                            }
+                        var pawnsInCell = c.GetThingList(victim.Map).FindAll(x =>
+                            x is Pawn && x != dinfo.Instigator && x.Faction != dinfo.Instigator.Faction);
+                        for (var k = 0; cleaveAttacks > 0 && k < pawnsInCell.Count; k++)
+                        {
+                            --cleaveAttacks;
+                            var p = (Pawn)pawnsInCell[k];
+                            p.TakeDamage(new DamageInfo(Def.cleaveDamage,
+                                (int)(dinfo.Amount * Def.cleaveFactor), Def.armorPenetration, -1,
+                                dinfo.Instigator));
                         }
                     }
                 }
             }
-
-            var result = base.Apply(dinfo, victim);
-            return result;
         }
+
+        var result = base.Apply(dinfo, victim);
+        return result;
     }
 }

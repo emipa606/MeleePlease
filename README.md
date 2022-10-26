@@ -1,23 +1,16 @@
 # MeleePlease
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of ianchen31s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1549919146
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+- Replaced Jecs Tools dependency with https://steamcommunity.com/workshop/filedetails/?id=2543371889]Enable Oversized Weapons
 
+![Image](https://i.imgur.com/pufA0kM.png)
 
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/MeleePlease]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Current Version: 1.1
@@ -31,12 +24,12 @@ The mod add 13 melee weapons to RimWorld, from a stick on fire to high tech Glit
 Neolithic weapons:
 
 Torch (20 Woodlogs)
-A &quot;weapon&quot; I do believe that should be in vanilla. A wood stick on fire, that&apos;s all. But the fire itself can deal unsuspected damage, even setting your opponents on fire if lucky. (1/6 of chance)
-Torches don&apos;t really light up when equipped, since it needs coding to do so. At least they do light up when dropped.
+A "weapon" I do believe that should be in vanilla. A wood stick on fire, that's all. But the fire itself can deal unsuspected damage, even setting your opponents on fire if lucky. (1/6 of chance)
+Torches don't really light up when equipped, since it needs coding to do so. At least they do light up when dropped.
 Fixed: Torch now acts like the torch light, but a bit weaker, in both lighting area and heat induced, in exchange of longer lasting time. Torch will completed burned out when no fuel left. Note that refilling a torch is not possible.
 
 Battering ram (150 raw material)
-Just a pillar of stone, log or some sort of metal. Not really effective when facing pawns, but do deal great damage to structures. It&apos;s heavy to carry, thus your pawn will walk slower when carrying it.
+Just a pillar of stone, log or some sort of metal. Not really effective when facing pawns, but do deal great damage to structures. It's heavy to carry, thus your pawn will walk slower when carrying it.
 However, this weapon is not really designed for you, but your enemies.
 
 Axe (65 raw material)
@@ -63,22 +56,22 @@ A blade designed for close combat. Fast attack rate and improved accuracy, but n
 Industrial weapons:
 
 Shishkebab (75 steel, 2 components, 50 chemfuel, need BiofuelRefining researching)
-Yeah, it&apos;s the one that burns ghouls and raiders in Fallout. Shishkebab can set your opponents on fire when cutting them. The weapon itself does not deal great damage, but who really cares damage when you can see the raiders screaming, running stupidly when burned alive?
+Yeah, it's the one that burns ghouls and raiders in Fallout. Shishkebab can set your opponents on fire when cutting them. The weapon itself does not deal great damage, but who really cares damage when you can see the raiders screaming, running stupidly when burned alive?
 
 Chainsaw (100 steel, 1 components, 20 chemfuel, need BiofuelRefining researching)
-A tool for cutting trees. But yeah, you don&apos;t really see someone use this for trees in Rimworld, but for cutting flesh and bone. Chainsaw performed well when chopping down your opponents, as well as trees or plants.
+A tool for cutting trees. But yeah, you don't really see someone use this for trees in Rimworld, but for cutting flesh and bone. Chainsaw performed well when chopping down your opponents, as well as trees or plants.
 
 Spacer weapons:
 
 Driller (150 steel, 4 components, 100 chemfuel, need AdvancedFabrication researching)
 
 Something you may see on giant robots. This is a smaller and mobile version, originally used for mining. However, everything in RimWorld is weapon, so why not drilled through your opponents?
-It&apos;s designed for space colonies, thus no really high tech resources is needed. Yet it is still really useful.  Its self-containing chemfuel engine allows the user to handle the giant machine well, and even boost the user&apos;s speed.
+It's designed for space colonies, thus no really high tech resources is needed. Yet it is still really useful.  Its self-containing chemfuel engine allows the user to handle the giant machine well, and even boost the user's speed.
 
 Stab happy (60 Plasteel, 2 components, 2 advanced components, need AdvancedFabrication researching)
 
 A high tech knife that can emit strong electric current through bloodstream when cutting into victims, causing severe pain and affected the conscious. 
-It gained its name for the strange forced smile-like expression when someone getting electrocuted, seemingly the person gets &quot;happy&quot; when stabbed.
+It gained its name for the strange forced smile-like expression when someone getting electrocuted, seemingly the person gets "happy" when stabbed.
 Note that the knife can down a pawn by painfully shocked, but this does not mean that it is non-lethal.
 
 GlitterWorld weapon:
@@ -89,8 +82,8 @@ A deadly weapon that can vibrate in high frequency, making it capable of cutting
 ------------------------------------------------------------------------------------------------------------------------------------
 
 Since the mod adds some new mechanics to the game, balancing these weapons is just not that easy, thus, feel free to leave comments for weapons need better balancing.
-Also, I&apos;m not a native English speaker, so there might still be some wrong spelling or improper word used, please notify me when you spot some.
-Last but not least, I&apos;m new to modding (This is my second mod, but since I made my first mod a joke, literally, this is actually the mod for actual using), and know completely nothing about coding, request for something needs coding is just out of my capacity. I may need to boost my coding skill from 0 to around 8?
+Also, I'm not a native English speaker, so there might still be some wrong spelling or improper word used, please notify me when you spot some.
+Last but not least, I'm new to modding (This is my second mod, but since I made my first mod a joke, literally, this is actually the mod for actual using), and know completely nothing about coding, request for something needs coding is just out of my capacity. I may need to boost my coding skill from 0 to around 8?
 
 And special thanks for the help of JecsTools. It does help me a lots by allowing me to reset the size of weapons.
 
@@ -107,7 +100,7 @@ ChangeLog:
 Adding 4 new weapons: Axe, Stick, Claymore, Machete
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -117,6 +110,7 @@ Adding 4 new weapons: Axe, Stick, Claymore, Machete
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
