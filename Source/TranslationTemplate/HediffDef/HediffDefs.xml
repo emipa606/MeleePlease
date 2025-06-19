@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: electrocuted -->
+  <Electrocute.label>electrocuted</Electrocute.label>
+  <!-- EN: electrocuted -->
+  <Electrocute.description>electrocuted</Electrocute.description>
+  <!-- EN: Painful -->
+  <Electrocute.stages.Painful.label>Painful</Electrocute.stages.Painful.label>
+  <!-- EN: Paralyzed -->
+  <Electrocute.stages.Paralyzed.label>Paralyzed</Electrocute.stages.Paralyzed.label>
+  <!-- EN: Shock -->
+  <Electrocute.stages.Shock.label>Shock</Electrocute.stages.Shock.label>
+</LanguageData>

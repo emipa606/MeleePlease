@@ -5,12 +5,12 @@ namespace MeleePlease;
 
 public class DamageWorker_Cleave : DamageWorker_AddInjury
 {
-    public DamageDefCleave Def => def as DamageDefCleave;
+    private DamageDefCleave Def => def as DamageDefCleave;
 
 
     /// CALCULATION NOTES:
     /// Cleave calculation is determined by a few factors.
-    /// 0) Only persue these calculations if 0 is set as target flag.
+    /// 0) Only pursue these calculations if 0 is set as target flag.
     /// 1) Pawns with weapons will use the mass to decide
     /// how many adjacent targets are hit with the cleave attack.
     /// 2) Pawns without weapons will use their body size.
@@ -39,7 +39,7 @@ public class DamageWorker_Cleave : DamageWorker_AddInjury
     {
         if (dinfo is { InstantPermanentInjury: false, Instigator: not null })
         {
-            float maxDist = 4;
+            const float maxDist = 4;
             var cleaveAttacks = NumToCleave(dinfo.Instigator);
             if (victim?.PositionHeld != default(IntVec3))
             {

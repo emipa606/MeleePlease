@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: chainsaw -->
+  <Melee_Chainsaw.label>chainsaw</Melee_Chainsaw.label>
+  <!-- EN: A tool used to chop down trees. Of course, it can also chop your opponents into two pieces. -->
+  <Melee_Chainsaw.description>A tool used to chop down trees. Of course, it can also chop your opponents into two pieces.</Melee_Chainsaw.description>
+  <!-- EN: handle -->
+  <Melee_Chainsaw.tools.handle.label>handle</Melee_Chainsaw.tools.handle.label>
+  <!-- EN: point -->
+  <Melee_Chainsaw.tools.point.label>point</Melee_Chainsaw.tools.point.label>
+  <!-- EN: edge -->
+  <Melee_Chainsaw.tools.edge.label>edge</Melee_Chainsaw.tools.edge.label>
+  <!-- EN: Shishkebab -->
+  <Melee_Shishkebab.label>Shishkebab</Melee_Shishkebab.label>
+  <!-- EN: Pyromaniac's favorite. A sword that is capable of setting fire on your enemies. Beware, fireproof equipment not included. -->
+  <Melee_Shishkebab.description>Pyromaniac's favorite. A sword that is capable of setting fire on your enemies. Beware, fireproof equipment not included.</Melee_Shishkebab.description>
+  <!-- EN: handle -->
+  <Melee_Shishkebab.tools.handle.label>handle</Melee_Shishkebab.tools.handle.label>
+  <!-- EN: point -->
+  <Melee_Shishkebab.tools.point.label>point</Melee_Shishkebab.tools.point.label>
+  <!-- EN: edge -->
+  <Melee_Shishkebab.tools.edge.label>edge</Melee_Shishkebab.tools.edge.label>
+</LanguageData>

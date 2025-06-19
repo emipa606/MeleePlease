@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: drill -->
+  <Drill.label>drill</Drill.label>
+  <!-- EN: {0} has been drilled to death. -->
+  <Drill.deathMessage>{0} has been drilled to death.</Drill.deathMessage>
+  <!-- EN: electrocute -->
+  <Electrocute.label>electrocute</Electrocute.label>
+  <!-- EN: {0} has been cut to death. -->
+  <Electrocute.deathMessage>{0} has been cut to death.</Electrocute.deathMessage>
+  <!-- EN: smash -->
+  <Hammersmash.label>smash</Hammersmash.label>
+  <!-- EN: {0} has been smashed to death. -->
+  <Hammersmash.deathMessage>{0} has been smashed to death.</Hammersmash.deathMessage>
+  <!-- EN: ram -->
+  <Ram.label>ram</Ram.label>
+  <!-- EN: {0} has been rammed to death. -->
+  <Ram.deathMessage>{0} has been rammed to death.</Ram.deathMessage>
+  <!-- EN: saw -->
+  <Saw.label>saw</Saw.label>
+  <!-- EN: {0} has been sawed into two pieces. -->
+  <Saw.deathMessage>{0} has been sawed into two pieces.</Saw.deathMessage>
+</LanguageData>

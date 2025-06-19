@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: axe -->
+  <Melee_Axe.label>axe</Melee_Axe.label>
+  <!-- EN: A useful tool in many situations, including combat. Axe can deal great damage while hits slowly. -->
+  <Melee_Axe.description>A useful tool in many situations, including combat. Axe can deal great damage while hits slowly.</Melee_Axe.description>
+  <!-- EN: handle -->
+  <Melee_Axe.tools.handle.label>handle</Melee_Axe.tools.handle.label>
+  <!-- EN: edge -->
+  <Melee_Axe.tools.edge.label>edge</Melee_Axe.tools.edge.label>
+  <!-- EN: battering ram -->
+  <Melee_Ram.label>battering ram</Melee_Ram.label>
+  <!-- EN: A large, heavy pillar carried to smash structure. Does less damage to pawns, but effective to buildings. -->
+  <Melee_Ram.description>A large, heavy pillar carried to smash structure. Does less damage to pawns, but effective to buildings.</Melee_Ram.description>
+  <!-- EN: head -->
+  <Melee_Ram.tools.head.label>head</Melee_Ram.tools.head.label>
+  <!-- EN: stick -->
+  <Melee_Stick.label>stick</Melee_Stick.label>
+  <!-- EN: A long stick, with no heavy ends. Stick can't deal great damage, but attacks faster, and also has the ability to support walking. -->
+  <Melee_Stick.description>A long stick, with no heavy ends. Stick can't deal great damage, but attacks faster, and also has the ability to support walking.</Melee_Stick.description>
+  <!-- EN: head -->
+  <Melee_Stick.tools.head.label>head</Melee_Stick.tools.head.label>
+  <!-- EN: torch -->
+  <Melee_Torch.label>torch</Melee_Torch.label>
+  <!-- EN: A tool for lighting an area. But why not share your fire with your enemies? -->
+  <Melee_Torch.description>A tool for lighting an area. But why not share your fire with your enemies?</Melee_Torch.description>
+  <!-- EN: stick -->
+  <Melee_Torch.tools.stick.label>stick</Melee_Torch.tools.stick.label>
+  <!-- EN: fire -->
+  <Melee_Torch.tools.fire-0.label>fire</Melee_Torch.tools.fire-0.label>
+  <!-- EN: fire -->
+  <Melee_Torch.tools.fire-1.label>fire</Melee_Torch.tools.fire-1.label>
+</LanguageData>

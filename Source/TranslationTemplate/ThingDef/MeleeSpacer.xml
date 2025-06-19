@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: driller -->
+  <Melee_Drill.label>driller</Melee_Drill.label>
+  <!-- EN: Originally designed for space mining, the driller is actually more popular as a weapon. Despite its weight, the drill has inner chemfuel engine to boost the user's speed. -->
+  <Melee_Drill.description>Originally designed for space mining, the driller is actually more popular as a weapon. Despite its weight, the drill has inner chemfuel engine to boost the user's speed.</Melee_Drill.description>
+  <!-- EN: drill body -->
+  <Melee_Drill.tools.drill_body.label>drill body</Melee_Drill.tools.drill_body.label>
+  <!-- EN: point -->
+  <Melee_Drill.tools.point.label>point</Melee_Drill.tools.point.label>
+  <!-- EN: edge -->
+  <Melee_Drill.tools.edge.label>edge</Melee_Drill.tools.edge.label>
+  <!-- EN: stab happy -->
+  <Melee_Stabhappy.label>stab happy</Melee_Stabhappy.label>
+  <!-- EN: A knife that can emit strong electric current through bloodstream when cutting into victims. Gained its name for the strange forced smile-like expression when getting electrocuted. Though painful, it's not lethal...mostly. -->
+  <Melee_Stabhappy.description>A knife that can emit strong electric current through bloodstream when cutting into victims. Gained its name for the strange forced smile-like expression when getting electrocuted. Though painful, it's not lethal...mostly.</Melee_Stabhappy.description>
+  <!-- EN: handle -->
+  <Melee_Stabhappy.tools.handle.label>handle</Melee_Stabhappy.tools.handle.label>
+  <!-- EN: blade -->
+  <Melee_Stabhappy.tools.blade.label>blade</Melee_Stabhappy.tools.blade.label>
+  <!-- EN: point -->
+  <Melee_Stabhappy.tools.point.label>point</Melee_Stabhappy.tools.point.label>
+</LanguageData>
